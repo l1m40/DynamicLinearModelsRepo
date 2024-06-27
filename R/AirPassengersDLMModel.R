@@ -56,6 +56,8 @@ polygon(x=c(timelo, rev(timelo)),
             rev(forecasted$f-qnorm(0.95)*standard_deviations)),
         lty=3,col=scales::alpha("blue",alpha=0.1))
 lines(timelo,forecasted$f,col=3)
+legend("bottomright", c("Original series","36-step ahead forecast","Confidence interval"), 
+       lty=c(1, 1, 3), lwd=c(2,2,2), col=c(1,3,4),bty = "n")
 
 residuals(filtered)
 
