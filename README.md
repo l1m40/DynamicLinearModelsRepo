@@ -4,11 +4,17 @@ It includes detailed analyses and forecasting studies on various datasets.
 AirPassengers Data: Analyzing and forecasting monthly international airline passengers.
 <br />
 <div align="center">
-    <img src="output/Air Pasengers 1.png" alt="plot" width="600" height="600">
+    <img src="output/Air Passengers 1.png" alt="plot" width="600" height="600">
 </div>
 
 
 Sediment Forecasting: Predicting sediment levels based on river flow observations.
+
+Financial Markets: Forecasting price in financial data.
+<br />
+<div align="center">
+    <img src="output/Financial Markets price 1.png" alt="plot" width="600" height="200">
+</div>
 
 Financial Markets: Smoothing and forecasting percentages of cointegrated stationary pairs in financial data.
 
