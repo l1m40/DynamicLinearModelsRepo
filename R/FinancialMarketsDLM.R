@@ -154,7 +154,7 @@ result_mle_1_df <- price_forecast_mle(Y_df,80,build)
 result_mle_df   <- price_forecast_mle(Y_df %>% mutate(price=(price+high+low)/3),80,build)
 
 NULL %>% 
-  rbind(result_basic_df %>% mutate(error=abs((forecast/price)-1)) %>% mutate(err_mean=mean(error,na.rm=T),err_max=max(error,na.rm=T)) %>% mutate(test="  not estimate")) %>% 
+  rbind(result_basic_df %>% mutate(error=abs((forecast/price)-1)) %>% mutate(err_mean=mean(error,na.rm=T),err_max=max(error,na.rm=T)) %>% mutate(test="  not estimated")) %>% 
   rbind(result_mle_1_df %>% mutate(error=abs((forecast/price)-1)) %>% mutate(err_mean=mean(error,na.rm=T),err_max=max(error,na.rm=T)) %>% mutate(test=" maximum likelihood")) %>% 
   rbind(result_mle_df   %>% mutate(error=abs((forecast/price)-1)) %>% mutate(err_mean=mean(error,na.rm=T),err_max=max(error,na.rm=T)) %>% mutate(test="mle with typical price")) %>% 
   ggplot(aes(y=test))+ylab("Model")+xlab("Forecast Error Average")+geom_boxplot(aes(x=error))
