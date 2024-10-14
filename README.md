@@ -6,6 +6,7 @@ AirPassengers Data: Analyzing and forecasting monthly international airline pass
 <div align="center">
     <img src="output/Air Passengers 1.png" alt="plot" width="600" height="600">
 </div>
+<br />
 
 
 Sediment Forecasting: Predicting sediment levels based on river flow observations.
@@ -15,6 +16,12 @@ Financial Markets: Forecasting price in financial data.
 <div align="center">
     <img src="output/Financial Markets price 1.png" alt="plot" width="600" height="200">
 </div>
+Use DLM on financial markets prices does not have the purpose of forseen prices (that is not possible, sorry! :-)).<br />
+Instead, we should intend to verify how the market reacts compared to forecasted price and its confidence interval.
+<div align="center">
+    <img src="output/Financial Markets forecast error 1.png" alt="plot" width="600" height="100">
+</div>
+<br />
 
 Financial Markets: Smoothing and forecasting percentages of cointegrated stationary pairs in financial data.
 
