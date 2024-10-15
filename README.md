@@ -22,6 +22,11 @@ Instead, we should intend to verify how the market reacts compared to forecasted
     <img src="output/Financial Markets forecast error 1.png" alt="plot" width="600" height="100">
 </div>
 <br />
+Another way to use Dynamic Linear Model is smoothing the price and verify its behavior related to the confidence interval.
+<div align="center">
+    <img src="output/Financial Markets price smoothing 1.png" alt="plot" width="600" height="200">
+</div>
+<br />
 
 Financial Markets: Smoothing and forecasting percentages of cointegrated stationary pairs in financial data.
 
