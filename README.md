@@ -9,7 +9,13 @@ AirPassengers Data: Analyzing and forecasting monthly international airline pass
 <br />
 
 
-Sediment Forecasting: Predicting sediment levels based on river flow observations.
+Sediment Forecasting: Predicting sediment levels based on river flow observations with seasonality.
+<br />
+<div align="center">
+    <img src="output/sediments_confidence_interval.png" alt="plot" width="600" height="200">
+</div>
+<br />
+
 
 Financial Markets: Forecasting price in financial data.
 <br />
